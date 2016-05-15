@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ECF54281CE92A1500E23FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF54271CE92A1500E23FD3 /* AppDelegate.swift */; };
+		6ECF542A1CE92A1500E23FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF54291CE92A1500E23FD3 /* ViewController.swift */; };
+		6ECF542D1CE92A1500E23FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECF542B1CE92A1500E23FD3 /* Main.storyboard */; };
+		6ECF542F1CE92A1500E23FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECF542E1CE92A1500E23FD3 /* Assets.xcassets */; };
+		6ECF54321CE92A1500E23FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECF54301CE92A1500E23FD3 /* LaunchScreen.storyboard */; };
+		6ECF543D1CE92A1600E23FD3 /* MiniMapTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECF543C1CE92A1600E23FD3 /* MiniMapTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ECF54391CE92A1600E23FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECF541C1CE92A1500E23FD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECF54231CE92A1500E23FD3;
+			remoteInfo = MiniMapTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ECF54241CE92A1500E23FD3 /* MiniMapTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMapTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECF54271CE92A1500E23FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ECF54291CE92A1500E23FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ECF542C1CE92A1500E23FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ECF542E1CE92A1500E23FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECF54311CE92A1500E23FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ECF54331CE92A1500E23FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECF54381CE92A1600E23FD3 /* MiniMapTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniMapTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECF543C1CE92A1600E23FD3 /* MiniMapTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMapTimerTests.swift; sourceTree = "<group>"; };
+		6ECF543E1CE92A1600E23FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECF54211CE92A1500E23FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECF54351CE92A1600E23FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECF541B1CE92A1500E23FD3 = {
+			isa = PBXGroup;
+			children = (
+				6ECF54261CE92A1500E23FD3 /* MiniMapTimer */,
+				6ECF543B1CE92A1600E23FD3 /* MiniMapTimerTests */,
+				6ECF54251CE92A1500E23FD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECF54251CE92A1500E23FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECF54241CE92A1500E23FD3 /* MiniMapTimer.app */,
+				6ECF54381CE92A1600E23FD3 /* MiniMapTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECF54261CE92A1500E23FD3 /* MiniMapTimer */ = {
+			isa = PBXGroup;
+			children = (
+				6ECF54271CE92A1500E23FD3 /* AppDelegate.swift */,
+				6ECF54291CE92A1500E23FD3 /* ViewController.swift */,
+				6ECF542B1CE92A1500E23FD3 /* Main.storyboard */,
+				6ECF542E1CE92A1500E23FD3 /* Assets.xcassets */,
+				6ECF54301CE92A1500E23FD3 /* LaunchScreen.storyboard */,
+				6ECF54331CE92A1500E23FD3 /* Info.plist */,
+			);
+			path = MiniMapTimer;
+			sourceTree = "<group>";
+		};
+		6ECF543B1CE92A1600E23FD3 /* MiniMapTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ECF543C1CE92A1600E23FD3 /* MiniMapTimerTests.swift */,
+				6ECF543E1CE92A1600E23FD3 /* Info.plist */,
+			);
+			path = MiniMapTimerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECF54231CE92A1500E23FD3 /* MiniMapTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECF54411CE92A1600E23FD3 /* Build configuration list for PBXNativeTarget "MiniMapTimer" */;
+			buildPhases = (
+				6ECF54201CE92A1500E23FD3 /* Sources */,
+				6ECF54211CE92A1500E23FD3 /* Frameworks */,
+				6ECF54221CE92A1500E23FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniMapTimer;
+			productName = MiniMapTimer;
+			productReference = 6ECF54241CE92A1500E23FD3 /* MiniMapTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ECF54371CE92A1600E23FD3 /* MiniMapTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECF54441CE92A1600E23FD3 /* Build configuration list for PBXNativeTarget "MiniMapTimerTests" */;
+			buildPhases = (
+				6ECF54341CE92A1600E23FD3 /* Sources */,
+				6ECF54351CE92A1600E23FD3 /* Frameworks */,
+				6ECF54361CE92A1600E23FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECF543A1CE92A1600E23FD3 /* PBXTargetDependency */,
+			);
+			name = MiniMapTimerTests;
+			productName = MiniMapTimerTests;
+			productReference = 6ECF54381CE92A1600E23FD3 /* MiniMapTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECF541C1CE92A1500E23FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jan Olbrich";
+				TargetAttributes = {
+					6ECF54231CE92A1500E23FD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6ECF54371CE92A1600E23FD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6ECF54231CE92A1500E23FD3;
+					};
+				};
+			};
+			buildConfigurationList = 6ECF541F1CE92A1500E23FD3 /* Build configuration list for PBXProject "MiniMapTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECF541B1CE92A1500E23FD3;
+			productRefGroup = 6ECF54251CE92A1500E23FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECF54231CE92A1500E23FD3 /* MiniMapTimer */,
+				6ECF54371CE92A1600E23FD3 /* MiniMapTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECF54221CE92A1500E23FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECF54321CE92A1500E23FD3 /* LaunchScreen.storyboard in Resources */,
+				6ECF542F1CE92A1500E23FD3 /* Assets.xcassets in Resources */,
+				6ECF542D1CE92A1500E23FD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECF54361CE92A1600E23FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECF54201CE92A1500E23FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECF542A1CE92A1500E23FD3 /* ViewController.swift in Sources */,
+				6ECF54281CE92A1500E23FD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECF54341CE92A1600E23FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECF543D1CE92A1600E23FD3 /* MiniMapTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ECF543A1CE92A1600E23FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECF54231CE92A1500E23FD3 /* MiniMapTimer */;
+			targetProxy = 6ECF54391CE92A1600E23FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ECF542B1CE92A1500E23FD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECF542C1CE92A1500E23FD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ECF54301CE92A1500E23FD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECF54311CE92A1500E23FD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ECF543F1CE92A1600E23FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ECF54401CE92A1600E23FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ECF54421CE92A1600E23FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniMapTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.recursivesteps.MiniMapTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ECF54431CE92A1600E23FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniMapTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.recursivesteps.MiniMapTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6ECF54451CE92A1600E23FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniMapTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.recursivesteps.MiniMapTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniMapTimer.app/MiniMapTimer";
+			};
+			name = Debug;
+		};
+		6ECF54461CE92A1600E23FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniMapTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.recursivesteps.MiniMapTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniMapTimer.app/MiniMapTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECF541F1CE92A1500E23FD3 /* Build configuration list for PBXProject "MiniMapTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECF543F1CE92A1600E23FD3 /* Debug */,
+				6ECF54401CE92A1600E23FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECF54411CE92A1600E23FD3 /* Build configuration list for PBXNativeTarget "MiniMapTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECF54421CE92A1600E23FD3 /* Debug */,
+				6ECF54431CE92A1600E23FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ECF54441CE92A1600E23FD3 /* Build configuration list for PBXNativeTarget "MiniMapTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECF54451CE92A1600E23FD3 /* Debug */,
+				6ECF54461CE92A1600E23FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ECF541C1CE92A1500E23FD3 /* Project object */;
+}
