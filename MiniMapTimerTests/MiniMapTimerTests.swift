@@ -2,8 +2,7 @@
 //  MiniMapTimerTests.swift
 //  MiniMapTimerTests
 //
-//  Created by Jan Olbrich on 16.05.16.
-//  Copyright © 2016 Jan Olbrich. All rights reserved.
+//  Copyright © 2016. All rights reserved.
 //
 
 import XCTest

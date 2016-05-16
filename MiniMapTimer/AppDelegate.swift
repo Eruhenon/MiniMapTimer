@@ -2,11 +2,11 @@
 //  AppDelegate.swift
 //  MiniMapTimer
 //
-//  Created by Jan Olbrich on 16.05.16.
-//  Copyright © 2016 Jan Olbrich. All rights reserved.
+//  Copyright © 2016. All rights reserved.
 //
 
 import UIKit
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, withOptions: AVAudioSessionCategoryOptions.DefaultToSpeaker)
+        } catch {}
+        
         return true
     }
 
